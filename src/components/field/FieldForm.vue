@@ -31,7 +31,7 @@
       >
         type
       </label>
-      <input
+      <select
         id="field_type"
         v-model="item.type"
         :class="[
@@ -40,7 +40,12 @@
         ]"
         type="text"
         placeholder=""
-      />
+      >
+        <option value="date">date</option>
+        <option value="number">number</option>
+        <option value="string">string</option>
+        <option value="boolean">boolean</option>
+      </select>
       <div
         v-if="violations?.type"
         class="bg-red-100 rounded py-4 px-4 my-2 text-red-700 text-sm"

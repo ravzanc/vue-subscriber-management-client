@@ -55,7 +55,7 @@
       >
         state
       </label>
-      <input
+      <select
         id="subscriber_state"
         v-model="item.state"
         :class="[
@@ -64,7 +64,13 @@
         ]"
         type="text"
         placeholder=""
-      />
+      >
+        <option value="active">active</option>
+        <option value="unsubscribed">unsubscribed</option>
+        <option value="junk">junk</option>
+        <option value="bounced">bounced</option>
+        <option value="unconfirmed">unconfirmed</option>
+      </select>
       <div
         v-if="violations?.state"
         class="bg-red-100 rounded py-4 px-4 my-2 text-red-700 text-sm"
