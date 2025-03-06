@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h2>
+      Subscriber Management Client built with Vite + Vue 3 + TailwindCSS 4 (to start click on the above resource pages links)
+    </h2>
   </main>
 </template>

@@ -9,8 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
 
       <nav>
-        <RouterLink to="/subscribers">Subscribers</RouterLink>
-        <RouterLink to="/fields">Fields</RouterLink>
+        <RouterLink to="/subscribers">- Subscribers</RouterLink>
+        <RouterLink to="/fields">- Fields</RouterLink>
       </nav>
     </div>
   </header>
