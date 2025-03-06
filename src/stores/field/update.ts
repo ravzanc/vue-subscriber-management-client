@@ -54,8 +54,8 @@ export const useFieldUpdateStore = defineStore("fieldUpdate", {
 
       try {
         const response = await api(this.retrieved["@id"], {
-          method: "PUT",
-          headers: new Headers({ "Content-Type": "application/ld+json" }),
+          method: "PATCH",
+          headers: new Headers({ "Content-Type": "application/merge-patch+json" }),
           body: JSON.stringify(payload),
         });
         const data: Field = await response.json();
