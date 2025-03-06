@@ -38,8 +38,6 @@
           'mt-1 w-full px-3 py-2 border rounded',
           violations?.type ? 'border-red-500' : 'border-gray-300',
         ]"
-        type="text"
-        placeholder=""
       >
         <option value="date">date</option>
         <option value="number">number</option>
