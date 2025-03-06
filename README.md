@@ -28,5 +28,7 @@ npm run lint
 * `/subscribers`
 * `/fields`
 
+### Demo video
+Watch the demo screen recording [here](https://www.loom.com/share/6e944b45aa134e38a81dca3d7f568fb5?sid=29d031b6-a353-4dea-819a-8a5a0431d7d1)
 ### Further considerations
 This tiny client is built for serving [Subscriber Management API](https://github.com/ravzanc/laravel-subscriber-management-api) project
